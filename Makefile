@@ -17,7 +17,6 @@ build_unsigned:
 	            -target "$(PROGRAM_NAME)" \
 	            -configuration "Debug" \
 	            CONFIGURATION_BUILD_DIR="$(BUILD_DIR)" \
-	            CODE_SIGN_IDENTITY="" \
 	            CODE_SIGNING_REQUIRED=NO \
 	            build
 
